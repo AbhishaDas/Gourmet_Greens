@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+
+.bold{
+    font-size: 25px;
+}
+
+li{
+    padding: 5px;
+   
+}
+a.nav-link{
+    color: #086a2d;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-link:focus, .nav-link:hover{
+    color: #8abe52;
+}
+.nav-link:hover{
+
+    border-bottom: 2px solid rgb(8, 139, 37);
+    transition: .1s;
+}
+
+.img-fluid{
+    border-radius: 40px;
+}
+/*----Home----*/
+
+span{
+    color: rgb(8, 139, 37);
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+}
+
+/*---About us---*/
+
+#about img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 40px;
+}
+
+.img-fluid1{
+    width: 400px;
+    height: 361px;
+    border-radius: 40px;
+    padding: 0;
+    margin-top: 66px;
+    margin-bottom: 95px;
+}
+.mp{
+    margin-top: 30px;
+    margin-bottom: 1rem;
+}
+
+/*-------Service-------*/
+.text-center{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.card img{
+    height: 200px;
+
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    height: 310px;
+}
+
+.inner{
+    overflow: hidden;
+
+}
+
+.card img:hover{
+    transition: 1s;
+    transform: scale(1.5);
+
+}
+
+/*-------Contact-----*/
+.cn-centre{
+    text-align: center;
+}
+.ch{
+    margin-top: 15px;
+    text-align: center;
+}
+.cp{
+    margin-top: 34px;
+    text-align: center;
+}
